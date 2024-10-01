@@ -13,6 +13,7 @@
     </style>
   </head>
   <body>
+    
     <form action="">
       <table width="500" cellpadding="10">
         <tr>
@@ -46,11 +47,16 @@
         </tr>
         <tr>
           <td colspan="2">
-            <input type="reset" value="reset" />
+            <input type="reset" onclick="showAlert()" value="reset" />
             <input type="submit" value="gui" />
           </td>
         </tr>
       </table>
     </form>
+    <script>
+      function showAlert(){
+        alert();
+      }
+    </script>
   </body>
 </html>
